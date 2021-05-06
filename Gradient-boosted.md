@@ -12,3 +12,13 @@ El gradiente es el ajuste incremental realizado en cada paso del proceso; el ref
 
 Los árboles de decisión con refuerzo de gradiente son un método popular para resolver problemas de predicción en los dominios de clasificación y regresión. El enfoque mejora el proceso de aprendizaje simplificando el objetivo y reduciendo el número de iteraciones para llegar a una solución suficientemente óptima. Los modelos con refuerzo de gradiente han demostrado una y otra vez su valía en diversas competiciones de clasificación tanto por su precisión como por su eficacia, lo que los convierte en un componente fundamental en el kit de herramientas del científico de datos.
 
+##  Ventajas y desventajas de GBDT
+
+### Ventajas
+Se puede obtener una mayor precisión con relativamente menos tiempo para el ajuste de parámetros.
+
+Puede procesar de manera flexible varios tipos de datos, incluidos valores continuos y discretos, y tiene una amplia gama de usos.
+
+Puede utilizar algunas funciones de pérdida robustas, que son más robustas para los valores atípicos, como la función de pérdida de Huber.
+### Desventajas
+Existe una relación de dependencia entre los alumnos débiles, lo que dificulta entrenar datos en paralelo.
