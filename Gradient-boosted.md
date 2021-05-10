@@ -8,6 +8,11 @@ El gradiente es el ajuste incremental realizado en cada paso del proceso; el ref
 
 La idea de la potenciación del gradiente fue originada en la observación realizada por Leo Breiman en donde el Boosting puede ser interpretado como un algoritmo de optimización en una función de coste adecuada. Posteriormente Jerome H. Friedman desarrolló algoritmos de aumento de gradiente de regresión explícita, simultáneamente con la perspectiva más general de potenciación del gradiente funcional de Llew Mason
 
+## Gradient boost
+Boost significa "aumentar". Generalmente, el algoritmo Boosting es un proceso iterativo, y cada nuevo entrenamiento es para mejorar el resultado anterior. El algoritmo adaboost  es un tipo de sistema de algoritmo de impulso. El aumento de gradiente también pertenece al sistema de algoritmos de impulso.
+
+Gradient Boost es en realidad un marco en el que se pueden incrustar muchos algoritmos diferentes. Cada cálculo es para reducir el residual del tiempo anterior. Para eliminar el residual, podemos construir un nuevo modelo en la dirección del gradiente de la reducción residual. Por lo tanto, cada nuevo modelo se establece para hacer residual el modelo anterior. La diferencia disminuye en la dirección del gradiente. Se utiliza para optimizar la función de pérdida de muchas formas.
+
 ## ¿Por qué son importantes?
 
 Los árboles de decisión con refuerzo de gradiente son un método popular para resolver problemas de predicción en los dominios de clasificación y regresión. El enfoque mejora el proceso de aprendizaje simplificando el objetivo y reduciendo el número de iteraciones para llegar a una solución suficientemente óptima. Los modelos con refuerzo de gradiente han demostrado una y otra vez su valía en diversas competiciones de clasificación tanto por su precisión como por su eficacia, lo que los convierte en un componente fundamental en el kit de herramientas del científico de datos.
