@@ -24,3 +24,27 @@ Puede procesar de manera flexible varios tipos de datos, incluidos valores conti
 Puede utilizar algunas funciones de pérdida robustas, que son más robustas para los valores atípicos, como la función de pérdida de Huber.
 ### Desventajas
 Existe una relación de dependencia entre los alumnos débiles, lo que dificulta entrenar datos en paralelo.
+
+Su implementación puede dificultarse entre mayor sea la demanda computacional.
+
+
+## Entradas y salidas
+
+Se pueden destacar 3 campos en la aplicación de estos árboles en Scala según la documentación de Spark:
+
+###labelCol:
+Columna compuesta de valores tipo Double, la entrada será una etiqueta que representa lo que se pretende predecir.
+###featuresCol:
+Vector compuesto de la características de nuestra predicción.
+###predictionCol:
+Columna compuesta de valores Double que serán los valores ya predichos, este es un campo de salida
+
+
+## Aplicaciones
+
+Loa árboles de decisión con refuerzo gradiente pueden ser usados en el campo de aprendizaje para valorar, el cual, es una aplicación del machine learning para construir modelos de valoración para sistemas de retorno de información. Compañias como Yahoo y Yandex usan variantes de este sistema para este mismo propósito. En el Gran Colisionador de Hadrones (LHC), haciendo uso de una mezcla de árboles de decisión con refuerzo gradiente y redes neuronales profundas (DNN) lograron reproducir los resultados de los métodos de análisis sin aprendizaje automático en conjuntos de datos utilizados para descubrir el bosón de Higgs. 
+
+
+## Etiquetas
+
+Esta técnica puede ser identificada por diferentes nombres, su autor Friedman introdujo esta técnica como "Gradient Boosting Machine" (GBM). Otros describen la clase generalizada del algoritmo como "Functional Gradient Boosting"; una forma avanzada de esta tecnica es conocida como "Multiple Additive Regression Trees" (MART). Finalmente, una implementación muy popular para r es conocida como "Generalized Boosting Model" u otro "XGBoost".
