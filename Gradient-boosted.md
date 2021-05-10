@@ -53,3 +53,6 @@ Loa árboles de decisión con refuerzo gradiente pueden ser usados en el campo d
 ## Etiquetas
 
 Esta técnica puede ser identificada por diferentes nombres, su autor Friedman introdujo esta técnica como "Gradient Boosting Machine" (GBM). Otros describen la clase generalizada del algoritmo como "Functional Gradient Boosting"; una forma avanzada de esta tecnica es conocida como "Multiple Additive Regression Trees" (MART). Finalmente, una implementación muy popular para r es conocida como "Generalized Boosting Model" u otro "XGBoost".
+
+## Video Explicativo
+https://www.youtube.com/watch?v=TyvYZ26alZs
