@@ -32,11 +32,11 @@ Su implementación puede dificultarse entre mayor sea la demanda computacional.
 
 Se pueden destacar 3 campos en la aplicación de estos árboles en Scala según la documentación de Spark:
 
-###labelCol:
+### labelCol:
 Columna compuesta de valores tipo Double, la entrada será una etiqueta que representa lo que se pretende predecir.
-###featuresCol:
+### featuresCol:
 Vector compuesto de la características de nuestra predicción.
-###predictionCol:
+### predictionCol:
 Columna compuesta de valores Double que serán los valores ya predichos, este es un campo de salida
 
 
